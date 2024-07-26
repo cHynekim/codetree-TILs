@@ -8,5 +8,6 @@ int main() {
     if(n < 0){
         cout << n << "\nminus";
     }
+    else cout << n;
     return 0;
 }
