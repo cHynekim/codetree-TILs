@@ -15,15 +15,6 @@ int main() {
     }
     else min = c;
 
-    if(a == min)
-        cout << 1;
-    else
-        cout << 0;
-
-    if(a == b & b == c)
-        cout << ' ' << 1;
-    else
-        cout << ' ' << 0;
-        
+    cout << (a == min) << ' ' << (a == b & b == c);   
     return 0;
 }
