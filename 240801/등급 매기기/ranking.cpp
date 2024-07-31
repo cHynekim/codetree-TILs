@@ -16,9 +16,9 @@ int main() {
         cout << 'C';
     }
     else if(scr < 70 & scr >= 60){
-        cout << 'C';
+        cout << 'D';
     }
     else cout << 'F';
-    
+
     return 0;
 }
