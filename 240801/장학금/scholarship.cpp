@@ -13,6 +13,7 @@ int main() {
         else if(fin >= 90){
             cout << 50000;
         }
+        else cout << 0;
     }
     else 
         cout << 0;
